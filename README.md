@@ -45,7 +45,8 @@ int main(void)
 }
 ```
 ## OUTPUT
-![image](https://github.com/RoopakCS/Linux-Process-API-fork-wait-exec/assets/139228922/f20ceae2-afb9-40fb-942c-74904b8a09ca)
+![Screenshot from 2024-04-02 14-14-12](https://github.com/RoopakCS/Linux-Process-API-fork-wait-exec/assets/139228922/3b241b28-6880-4bcf-8b5e-929da9c61aa9)
+
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 ```c
@@ -105,23 +106,7 @@ int main()
 ```
 
 ## OUTPUT
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/RoopakCS/Linux-Process-API-fork-wait-exec/assets/139228922/a1fde8fb-7295-4219-bfde-c9d0eab06a46)
 
 # RESULT:
 The programs are executed successfully.
