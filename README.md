@@ -76,9 +76,11 @@ int main()
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ```c
+#include <stdio.h>
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sys/types.h>
+#include <unistd.h>
 int main()
 {       
     int status;
