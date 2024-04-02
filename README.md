@@ -72,6 +72,7 @@ int main()
 ```
 
 ## OUTPUT
+![image](https://github.com/RoopakCS/Linux-Process-API-fork-wait-exec/assets/139228922/249ba6b3-fea4-476f-bd73-35f964bd776c)
 
 ## C Program to execute Linux system commands using Linux API system calls exec() family
 ```c
