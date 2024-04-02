@@ -30,7 +30,7 @@ Test the C Program for the desired output.
 #include <unistd.h>
 int main(void)
 {	
-  //variable to store calling function's process id
+  	//variable to store calling function's process id
 	pid_t process_id;
 	//variable to store parent function's process id
 	pid_t p_process_id;
@@ -40,7 +40,7 @@ int main(void)
 	p_process_id = getppid();
 	//printing the process ids
 
-  //printing the process ids
+  	//printing the process ids
 	printf("The process id: %d\n",process_id);
 	printf("The process id of parent function: %d\n",p_process_id);
 	return 0; 
