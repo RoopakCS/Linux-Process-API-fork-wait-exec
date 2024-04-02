@@ -39,12 +39,13 @@ int main(void)
 	//getppid() - will return process id of parent function
 	p_process_id = getppid();
 	//printing the process ids
-	printf("The process id: %d\n",process_id);
-	printf("The process id of parent function: %d\n",p_process_id);
+	printf("The process id: %ld\n",(long)process_id);
+	printf("The process id of parent function: %ld\n",(long)p_process_id);
 	return 0; 
 }
 ```
 ## OUTPUT
+![image](https://github.com/RoopakCS/Linux-Process-API-fork-wait-exec/assets/139228922/f20ceae2-afb9-40fb-942c-74904b8a09ca)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
 ```c
